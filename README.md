@@ -1,27 +1,26 @@
 # Coding Assignment 
 
-# Summary
+## Summary
 
-Create a web site that contains retrieves a current weather for a location using the openweathermap API. 
-Use this API token `a17480f70f0d4368ad0b5eabd0e37b66` or register your own.
+Create a web site that retrieves the current weather for a location provided by the user.
 
-Example Query:
+As data source you can use the openweathermap API. You can use this API token `a17480f70f0d4368ad0b5eabd0e37b66` for authentication or register your own.
+
+Example query:
 ```
 curl "https://api.openweathermap.org/data/2.5/weather?q=Stockholm&appid=a17480f70f0d4368ad0b5eabd0e37b66"
 ```
 
-## You application should provide
+## Requirements
+- Show the current temprature in _Celcius_ for the location that the user provides
+- Add an icon to the page according which represents the weather at the location (Feel free to use a frame such as [Font Awesome](https://fontawesome.com) as example)
 
-- Current temprature in _Celcius_
-- An icon on the page according to the weather data retrieved. ie. https://fontawesome.com/how-to-use/on-the-web/advanced/svg-symbols
+## Prerequisites
 
-# Prerequisites
+- A skeleton written in React is provided, but you don't need to use any of it
+- You should be able to explain and discuss your solution at the interview
 
-- A working sceleton is provided, but you don't need to use any of it
-- You choose a framework or vanilla javascript
-- You should explain us your solution when we meet
+## Tips
 
-# Tips
-
-- Use at most 2 hours for the assignment. We don't want a perfect or complete code. We just want to have something to talk about.
+- Use at most 2 hours for the assignment. We don't need perfect code. We just want to have something we can discuss.
 - Have fun and `yarn start`!
